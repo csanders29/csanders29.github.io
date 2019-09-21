@@ -1,0 +1,136 @@
+header {
+	font-size: 40pt;
+	font-weight:bold;
+	color: lightblue;
+	text-align:center;
+	font-family: serif-sans;
+	
+}
+
+h1 {
+	
+	color: darkgreen;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+}
+
+h3 {
+	text-align: center;
+}
+
+#containermain {
+	width: 90%;
+	padding:1em;
+	background-color: white;
+	margin: 0 auto;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	font-family: sans-serif;
+	background-image: url("space.jpg");
+	padding: 3em;
+	padding-top:1em;
+}
+
+#assignments {
+	margin:2em;
+	padding: 1em;
+}
+
+main {
+	display: flex;
+	margin: auto auto;
+}
+
+p {
+	text-align: center;
+}
+
+#hobart {
+	float: left;
+	display: flex;
+	flex-basis: 35%;
+	margin: auto auto;
+	width: 45%;
+	margin:2em;
+	padding: 1em;
+}
+
+#hobbies {
+	border: 1px solid lightblue;
+	background-color: white;
+	padding: 1em;
+	flex-basis:35%;
+}
+
+#artists {
+	border: 1px solid lightblue;
+	background-color: white;
+	padding: 1em;
+	flex-basis:65%;
+}
+
+#jobs {
+	border: 1px solid lightblue;
+	flex-basis: 55%;
+	background-color: white;
+	margin:2em;
+	padding: 1em;
+}
+
+#quote {
+	text-align: center;
+}
+
+#sites {
+	border: 1px solid lightblue;
+	background-color: white;
+	margin:2em;
+	padding: 1em;
+}
+
+li {
+background-image: url(arrow.gif);
+background-repeat: no-repeat;
+background-position: 100% .4em;
+padding-right: .6em;
+margin: 1em;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+span {
+	color: red;
+}
